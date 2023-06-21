@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from "react"
-import Pokecard from "./components/pokecard"
-import Loading from "./components/loading";
+import Pokecard from "../components/pokecard"
+import Loading from "../components/loading";
 
 interface PokemonData {
   count: number;
@@ -42,7 +42,7 @@ export default  function Home() {
     <div className="flex-1 p-5">
       <main className={`grid gap-2 grid-cols-3 `}>
         {isLoading ? <Loading/> : pokemons?.results.map((item, index)=>{
-          return <Pokecard id={index}/>
+          return <Pokecard id={index} key={index}/>
         })}
       </main>
       <button className="bg-blue-500 hover:bg-blue-900 p-2 rounded-full w-8 h-8 items-center flex justify-center mt-5  m-auto" onClick={()=>setLimit(prev=>prev+prev)}><span className="text-lg text-white font-bold mb-0.5">+</span></button>

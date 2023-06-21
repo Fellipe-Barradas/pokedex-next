@@ -1,6 +1,6 @@
-import Navbar from '@/app/layout/navbar'
+import Navbar from '@/layout/navbar'
 import './globals.css'
-import Footer from '@/app/layout/footer'
+import Footer from '@/layout/footer'
 
 export const metadata = {
   title: 'Pokedex',
