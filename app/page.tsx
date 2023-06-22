@@ -40,7 +40,7 @@ export default  function Home() {
     <>
     {isLoading ? <Loading/> : 
     <div className="flex-1 p-5">
-      <main className={`grid gap-2 grid-cols-3 `}>
+      <main className={`grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 `}>
         {isLoading ? <Loading/> : pokemons?.results.map((item, index)=>{
           return <Pokecard id={index} key={index}/>
         })}

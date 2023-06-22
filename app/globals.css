@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.fundo_pokemon {
+    background-image: url("/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%  ;
+}
 @font-face {
     font-family: "Pokemon" ;
     src: url('../fonts/Pokemon\ Solid.ttf') format('opentype');
