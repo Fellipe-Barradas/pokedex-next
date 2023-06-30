@@ -2,6 +2,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/fellipe-barradas/pokedex-next?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/fellipe-barradas/pokedex-next?style=for-the-badge)
 
+ver projeto = [pokedex](https://pokedex-next-7rm7ao1g5-fellipe-barradas.vercel.app/)<br>
 Primeiro projeto criado com **next.js**, que como nome diz, é uma pokédex que se utiliza da api gratuita da pokéAPI.
 Onde os pokémons são apresentados em formato de lista e com sua prórpia página introdutória.
 
